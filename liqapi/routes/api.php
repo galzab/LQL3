@@ -1,7 +1,12 @@
 <?php
 
+<<<<<<< HEAD
 
 use Illuminate\Http\Request;
+=======
+use Illuminate\Http\Request;
+
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,5 +21,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+<<<<<<< HEAD
 
 Route::resource('liquidaciones', 'LiquidacionController');
+=======
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc

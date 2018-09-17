@@ -1,6 +1,6 @@
 <template>
     <div>
-
+            <p>Hola Soy Juan</p>
     </div>
 </template>
 
@@ -11,11 +11,7 @@
                 key: value
             }
         },
-        watch: {
-            data(newValue, oldValue) {
-                
-            }
-        },
+        
     }
 </script>
 

@@ -27,7 +27,11 @@
         <env name="BCRYPT_ROUNDS" value="4"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
+<<<<<<< HEAD
         <env name="QUEUE_CONNECTION" value="sync"/>
+=======
+        <env name="QUEUE_DRIVER" value="sync"/>
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
         <env name="MAIL_DRIVER" value="array"/>
     </php>
 </phpunit>

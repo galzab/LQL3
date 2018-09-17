@@ -1,7 +1,10 @@
 <?php
 
 use Monolog\Handler\StreamHandler;
+<<<<<<< HEAD
 use Monolog\Handler\SyslogUdpHandler;
+=======
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
 
 return [
 
@@ -60,6 +63,7 @@ return [
             'level' => 'critical',
         ],
 
+<<<<<<< HEAD
         'papertrail' => [
             'driver'  => 'monolog',
             'level' => 'debug',
@@ -70,6 +74,8 @@ return [
             ],
         ],
 
+=======
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
         'stderr' => [
             'driver' => 'monolog',
             'handler' => StreamHandler::class,

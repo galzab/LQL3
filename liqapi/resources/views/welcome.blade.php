@@ -2,6 +2,10 @@
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
+<<<<<<< HEAD
+=======
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>

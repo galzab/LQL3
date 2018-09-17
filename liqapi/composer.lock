@@ -659,6 +659,7 @@
         },
         {
             "name": "league/flysystem",
+<<<<<<< HEAD
             "version": "1.0.46",
             "source": {
                 "type": "git",
@@ -672,13 +673,32 @@
                 "shasum": ""
             },
             "require": {
+=======
+            "version": "1.0.47",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "a11e4a75f256bdacf99d20780ce42d3b8272975c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a11e4a75f256bdacf99d20780ce42d3b8272975c",
+                "reference": "a11e4a75f256bdacf99d20780ce42d3b8272975c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
                 "php": ">=5.5.9"
             },
             "conflict": {
                 "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "ext-fileinfo": "*",
+=======
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
                 "phpspec/phpspec": "^3.4",
                 "phpunit/phpunit": "^5.7.10"
             },
@@ -739,7 +759,11 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "time": "2018-08-22T07:45:22+00:00"
+=======
+            "time": "2018-09-14T15:30:29+00:00"
+>>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
         },
         {
             "name": "monolog/monolog",
