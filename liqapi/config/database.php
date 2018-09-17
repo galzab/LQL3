@@ -13,11 +13,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'default' => env('DB_CONNECTION', 'sqlsrv'),
-=======
-    'default' => env('DB_CONNECTION', 'mysql'),
->>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
 
     /*
     |--------------------------------------------------------------------------
@@ -73,17 +69,10 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-<<<<<<< HEAD
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', 'liquiddb'),
             'username' => env('DB_USERNAME', 'SA'),
-=======
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'liquid'),
-            'username' => env('DB_USERNAME', 'sa'),
->>>>>>> 075bb7e455ed6db0f77bbb8052115e3c28de46dc
             'password' => env('DB_PASSWORD', 'cnmc2018'),
             'charset' => 'utf8',
             'prefix' => '',
